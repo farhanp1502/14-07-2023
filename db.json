@@ -1,0 +1,55 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "auth": [
+    {
+      "id": 1,
+      "adult": true,
+      "email": "farhanpasha1502@gmail.com",
+      "gender": "male",
+      "name": "Farhan Pasha",
+      "password": "34567",
+      "phonenumber": 9353417645,
+      "userid": 7839,
+      "username": "farhz"
+    },
+    {
+      "userid": 2095,
+      "name": "Farhan Pasha",
+      "email": "farhanpasha1502@gmail.com",
+      "phonenumber": 9353417645,
+      "username": "farhz",
+      "gender": "male",
+      "adult": true,
+      "password": "34567",
+      "id": 2
+    },
+    {
+      "userid": 6877,
+      "name": "nawaz ahmed",
+      "username": "nawazzz",
+      "email": "nawaz123@gmail.com",
+      "phonenumber": 9876654332,
+      "gender": "male",
+      "adult": true,
+      "password": "12345678",
+      "id": 3
+    },
+    {
+      "userid": 7957,
+      "name": "roopesh vishwakarma",
+      "username": "roovi",
+      "email": "roopesh123@gmail.com",
+      "phonenumber": 123456789,
+      "gender": "male",
+      "adult": true,
+      "password": "9876543",
+      "id": 4
+    }
+  ]
+}

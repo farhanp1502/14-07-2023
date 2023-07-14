@@ -1,0 +1,64 @@
+<p>login works!</p>
+<form autocomplete="on"
+#loginform="ngForm" (ngSubmit)="login(dataform)"
+
+
+>
+<!-- style="height: fit-content;width: fit-content;display: flex;flex-direction: column;" -->
+<!-- class="bg-dark text-light m-3 p-3" -->
+<!-- {{ a  }} -->
+<!-- <label name="userid" [(ngModel)]="dataform.userid" for="userid">UserID:{{ a }}</label> -->
+<label for="userid">UserID: {{ a }}</label>
+<!-- <input id="userid" [(ngModel)]="dataform.userid" name="userid"  type="text" placeholder="write the provided id" disabled=true> -->
+
+<!--  <div class="userid">
+  <label for="userid">UserID</label>
+  <input value="{{ a }}" id="userid" name="userid" [(ngModel)]="dataform.userid" type="number">
+  </div> -->
+  <br /> 
+
+<div class="name">
+<label for="name">Name</label>
+<input id="name" name="name" [(ngModel)]="dataform.name" type="text">
+</div>
+<br />
+<div class="username">
+  <label for="username">Username</label>
+  <input id="username" name="username" [(ngModel)]="dataform.username" type="text">
+  </div>
+  <br />
+<div class="email">
+  <label for="email">Email</label>
+  <input id="emial" name="email" [(ngModel)]="dataform.email" type="email">
+  </div>
+  <br />
+
+<div class="number">
+    <label for="number">Phone number</label>
+    <input id="num" name="phonenumber" [(ngModel)]="dataform.phonenumber" type="number">
+</div>
+<br />
+
+<div class="gender">
+  <input type="radio" name="male" value="male" [(ngModel)]="dataform.gender" id="male">
+  <label for="male">Male</label>
+  <input type="radio" name="female" value="female" [(ngModel)]="dataform.gender" id="female">
+  <label for="female">Female</label>
+</div>
+<br />
+
+<div class="adult">
+  <input type="checkbox" [(ngModel)]="dataform.adult" value="true" name="adult" id="adult">
+  <label for="adult">Are you 18+. Tick it out.</label>
+</div>
+<br />
+
+<div class="password">
+  <label for="password">Password</label>
+  <input name="password" id="password" [(ngModel)]="dataform.password" type="password">
+</div>
+
+<button  type="submit"> Registration</button> <a routerLink="sign">already have a account</a>
+<router-outlet></router-outlet>
+<!-- class="btn btn-success m-2 p-2" -->
+</form>

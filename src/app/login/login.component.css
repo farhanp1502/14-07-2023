@@ -1,0 +1,77 @@
+/* Container styles */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Input container styles */
+.name,
+.username,
+.email,
+.number,
+.gender,
+.adult,
+.password {
+  margin-bottom: 15px;
+}
+
+/* Label styles */
+label {
+  display: block;
+  font-weight: bold;
+}
+
+/* Input styles */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Radio button and checkbox styles */
+.gender {
+  display: flex;
+  align-items: center;
+}
+
+.gender input[type="radio"],
+.gender label {
+  margin-right: 10px;
+}
+
+/* Button styles */
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Animation styles */
+input,
+label,
+button {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
